@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KALKULATOR SEGITIGA</title>
+    <link rel="icon" href="img/segitiga.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>KALKULATOR SEGITIGA</h1>
+      <br>
+      <img src="img/segitiga.png" alt="Segitiga" />
+    </div>
+
+    <div class="box">
+      <h3>Keliling</h3>
+      <h4>Diketahui 3 sisi</h4>
+      <label for="sisiA">Sisi A:</label>
+      <input type="number" id="sideA" placeholder="Masukkan Panjang Sisi A" />
+
+      <label for="sideB">Sisi B:</label>
+      <input type="number" id="sideB" placeholder="Masukkan Panjang Sisi B" />
+
+      <label for="sideC">Sisi C:</label>
+      <input type="number" id="sideC" placeholder="Masukkan Panjang Sisi C" />
+      <br />
+      <button onclick="kelilingA()">Hitung</button>
+
+      <div id="result1"></div>
+    </div>
+
+    <div class="box">
+      <h3>Luas</h3>
+
+      <label for="sisiA">Alas:</label>
+      <input type="number" id="alas" placeholder="Masukkan Panjang Alas" />
+
+      <label for="sideB">Tinggi:</label>
+      <input type="number" id="tinggi" placeholder="Masukkan Panjang Tinggi" />
+      <br />
+      <button onclick="luasB()">Hitung</button>
+
+      <div id="result2"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

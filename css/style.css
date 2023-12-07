@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+}
+
+.header img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 100%;
+  max-width: 400px; /* Atur lebar maksimum sesuai kebutuhan */
+  margin: 20px auto;
+  background-color: #e9a81c;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .box {
+    max-width: 800px;
+  }
+  .header {
+    padding: 0 20px;
+  }
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #61461b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#result1 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+#result2 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
